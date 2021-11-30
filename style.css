@@ -79,5 +79,26 @@ h3 {
 }
 
 .information {
-    padding-left: 150px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
 }
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 150px;   
+}
+
+.img {
+    border: 4px solid;
+    border-color: #3882F6;
+    border-radius: 7px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    color: #F9FAF8;
+}
+
