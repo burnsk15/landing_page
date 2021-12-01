@@ -22,8 +22,18 @@ I used a div element to be place holders for images. This section has a lot of d
 I had to add a link the the google fonts to be able to make the Roboto font be thinner than 300. Changed the padding to be more that the header area.
 
 # Action section
-I had to rename the upper button in the header section with a class "first" for first button, and the the button in this section "last" since it is the last button. 
+I had to rename the upper button in the header section with an id "first" for first button, and the the button in this section "last" since it is the last button. 
 
 I used margin in the action parent div to container the blue box away from the edges, while also allowing the box to grow.
 
 I had to remove the margin around both the h3 and p elements and then add a margin around their container so that they would touch.
+
+# Footer
+To make the copy symbol use, <span>&copy<span> or <span>&#169<span>.
+
+Also used a footer element instead of a div, since you should use specific containers when possible.
+
+# Notes
+So my only worry is I'm not sure how the website is supposed to look as the screen gets wider, it says that it doesn't matter for smaller mobile screens. 
+
+Also starting halfway through I started adding comments, and went back to add comments, but will try and add more commments going forwards.
