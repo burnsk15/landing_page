@@ -4,14 +4,19 @@
         <title>Landing Page</title>
         <meta charset="utf=8">
         <link rel="stylesheet" href="./style.css">
+        <!-- The link lower was added to allow the font roboto to be thinner than the norma
+        font of 300 -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap" rel="stylesheet">
         <!-- not sure what this does so comment it out for now
             <meta name="viewpoint" content="width=device-width, initial-scale=1.0" -->
     </head>
 
     <body>
-        <div class="header">
-            <ul class="top">
+        <div class="header"> <!-- Header Section -->
+            <ul class="top"> <!-- make the header as a list to make it easy to group together-->
                 <li class="logo">Header Logo</li>
+                <!-- the link below is the only one with a class since we only need the
+                left most one's margin changed to move all those to the right with it-->
                 <li class="links"><a href="google.com">header link one</a></li>
                 <li><a href="google/com">header link two</a></li>
                 <li><a href="google.com">header link three</a></li>
@@ -24,12 +29,13 @@
                   </p>
                 <button>Sign up</button>
                 </div>
-                <img src="./images/clouds.jpg" alt="pink colored clouds">
+                <img src="./images/clouds.jpg" alt="pink colored clouds"> <!-- photo credit in README.md -->
             </div>
         </div>
         <div>
-            <h3>Some random information.</h3>
+            <h3>Some random information.</h3> <!-- Random Info Section -->
             <div class="information">
+                <!-- had to give each little bundle of information it's our div and class-->
                 <div class="info-1">
                     <div class="img">img</div>
                     <p>this is some subtext under an illustration or image</p>
@@ -46,6 +52,20 @@
                     <div class="img">img</div>
                     <p>this is some subtext under an illustration or image</p>
                 </div>
+            </div>
+        </div>
+        <div class="quote"> <!-- Quote Section-->
+            <p class="quote-text">This is an inspirating quote, or a testimonial from a customer 
+                Maybe it's just filling up space, or maybe people will actually 
+                read it. Who knows? All I know is that is looks nice.
+            </p>
+            <p class="credit">-Thor, God of Thunder</p> <!-- split this into two separate paragraphs 
+            so that the second could be styled toward the right margin-->
+        </div>
+        <div class="action">
+            <div class="action-content">
+                <h3>Call to action! It's time!</h3>
+
             </div>
         </div>
     </body>

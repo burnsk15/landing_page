@@ -17,3 +17,8 @@ finished the html and css of the header using flex box. I was able to get the he
 
 # Random information section
 I used a div element to be place holders for images. This section has a lot of div's within div. To get the text under the image out both into a div and then apply display:flex, and then flex-direction:column.
+
+# Quote section
+I had to add a link the the google fonts to be able to make the Roboto font be thinner than 300.
+
+# Action section
