@@ -64,7 +64,7 @@ img {
     font-weight: extra-bold;
 }
 
-button {
+#first {
     background-color: #3882F6; /* remeber not to put the HEX before the # */
     border: #3882F6;
     color: #F9FAF8;
@@ -85,6 +85,7 @@ h3 {
     /*using center aignment so that they stay the middle of the screen*/
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .info-1, .info-2, .info-3, .info-4 {
@@ -115,8 +116,8 @@ h3 {
     justify-content: center;
     /* padding added to the sides of the items so that they dont touch the
     screen. im wondering if there is a better way to kee them in the middle */
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 180px;
+    padding-right: 180px;
     
 }
 /* div created to separate the text that needed to be thinned and italics */
@@ -128,3 +129,51 @@ h3 {
 .credit {
     margin-left: auto;    
 }
+/* styling for the whole call to action area */
+.action {
+    background-color: #F9FAF8;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    color:#E5E7EB;
+}
+/* styling for the word content */
+.action-content {
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 4px; /*rounded corners*/
+    padding: 15px;
+    gap: 25px; /* gap betweem the button and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* make sure to add the flex:1 so that the item could grow to fit the space,
+    and also have a margin in the parent container to give it space */
+}
+/* the styling for the sign up button */
+#last {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px; /* rounded corners */
+    padding: 4px 17px; /* vertical then horizontal padding */
+    color: #E5E7EB;
+}
+h4 {
+    font-weight: 700;
+    font-size: larger;
+    margin: 0;
+}
+.action-words {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em; /* tired out the em instead of px, since thats what the h4 and <p> used before
+    removing their margins*/
+}
+
+.action-text {
+    margin: 0;/* removes the natural margin that <p> has */
+}
+
