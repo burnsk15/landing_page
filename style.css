@@ -60,7 +60,6 @@ ul, a {
 img {
     width: 325px;
     height: auto;
-    flex: 0.5 1 0; /* put this at 0.5 because it was just growing too much */
 }
 
 .h1 {
@@ -120,7 +119,7 @@ h3 {
     justify-content: center;
     /* padding added to the sides of the items so that they dont touch the
     screen. im wondering if there is a better way to kee them in the middle */  
-    padding: 0 150px;
+    padding: 0 250px;
 }
 /* div created to separate the text that needed to be thinned and italics */
 .quote-text {
