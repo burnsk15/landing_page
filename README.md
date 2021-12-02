@@ -15,6 +15,8 @@ Had a hard time getting the background color, turns out you do not put 'HEX' bef
 
 finished the html and css of the header using flex box. I was able to get the header to look like the sample photo in a smaller screen but not while wider. I'm not sure if it is suppose to have adjusting side padding to keep the same look but for now move on to the next part.
 
+Added flex-basis to keep the header-content from getting to wide.
+
 # Random information section
 I used a div element to be place holders for images. This section has a lot of div's within div. To get the text under the image out both into a div and then apply display:flex, and then flex-direction:column.
 
@@ -34,6 +36,6 @@ To make the copy symbol use, <span>&copy<span> or <span>&#169<span>.
 Also used a footer element instead of a div, since you should use specific containers when possible.
 
 # Notes
-So my only worry is I'm not sure how the website is supposed to look as the screen gets wider, it says that it doesn't matter for smaller mobile screens. 
+After some research I found flex-basis would help me keep the header-content the same size even as the screen gets wider
 
 Also starting halfway through I started adding comments, and went back to add comments, but will try and add more commments going forwards.

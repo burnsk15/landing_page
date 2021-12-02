@@ -6,10 +6,7 @@ body {
     display:flex;
     flex-direction: column;
     background: #1F2937;
-    color: #F9FAF8;
-    /* adding padding to keep the items off the edge of the screen*/
-    padding-left: 150px;
-    padding-right: 150px;
+    color: #F9FAF8;   
 }
 
 ul, a {
@@ -23,7 +20,9 @@ ul, a {
 .top {
     display: flex;
     gap: 10px; /* puts a gap between the header links*/
-    
+    /* added padding to keep the header off the edges */
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .links {
@@ -37,11 +36,14 @@ ul, a {
 .header-content {
     display: flex;
     gap: 16px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding:90;
+    /*padding-top: 75px;
+    padding-bottom: 75px;*/
     justify-content: center;
-    align-items: flex-start;
-    gap: 25px;
+    align-items: center;
+    margin: 30px;
+    
+    
 }
 
 .header-about {
@@ -50,7 +52,9 @@ ul, a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    flex: 1;
+    /* felx:basis is like max width, it keeps a certain size instead of growing too wide */
+    flex-basis: 350px;
+    
 }
 
 img {
@@ -115,15 +119,14 @@ h3 {
     flex-direction:column;
     justify-content: center;
     /* padding added to the sides of the items so that they dont touch the
-    screen. im wondering if there is a better way to kee them in the middle */
-    padding-left: 200px;
-    padding-right: 200px;
-    
+    screen. im wondering if there is a better way to kee them in the middle */  
+    padding: 0 150px;
 }
 /* div created to separate the text that needed to be thinned and italics */
 .quote-text {
     font-style: italic;
     font-weight: 100;
+    
 }
 /* set so that the credit text to author is to the bottom right */
 .credit {
